@@ -8,7 +8,8 @@
 ## as reproduced at http://www.opensource.org/licenses/artistic-license.php
 ##
 #
-# Convert a text file of modifications in  ????????? format to "gaaf" format.
+# Convert a text file of peptide residue modifications extracted from GPMDB
+#  into to "gaaf" (GFF style) format.
 
 my $FId = $ARGV[0]; #File name without the extension.
 my $MOd = $ARGV[1]; #MOdification name (e.g. Phospho, Acetyl or GlyGly )
